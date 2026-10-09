@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Marco Pezzullo / Silicon LogiX. See LICENSE.
+/build/
+/dist/
+/workspace/
+*.user
+__pycache__/
+*.pyc

@@ -1,0 +1,8 @@
+# Copyright (c) 2026 Marco Pezzullo / Silicon LogiX. See LICENSE.
+* text=auto eol=lf
+*.glb binary
+*.png binary
+*.ico binary
+*.zip binary
+*.step binary
+*.blend binary

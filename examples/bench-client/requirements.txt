@@ -1,0 +1,8 @@
+# Silicon LogiX / SLX ResilienceLab
+# Copyright (c) 2026 Marco Pezzullo / Silicon LogiX.
+# Author: Marco Pezzullo
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+# Project requirements implementation.
+
+# Optional client dependency; the desktop does not bundle or require Python.
+pyserial==3.5

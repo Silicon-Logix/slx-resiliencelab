@@ -1,0 +1,20 @@
+<!-- Copyright (c) 2026 Marco Pezzullo / Silicon LogiX. See LICENSE. -->
+<RCC><qresource prefix="/">
+<file>qml/Main.qml</file><file>qml/ScenarioPage.qml</file><file>qml/ComparePage.qml</file><file>qml/ActionButton.qml</file><file>qml/Panel.qml</file><file>qml/Metric.qml</file><file>qml/TraceChart.qml</file>
+<file>qml/ChoiceBox.qml</file><file>qml/ValueField.qml</file>
+<file>qml/IntroPage.qml</file><file>qml/ScenarioGuide.qml</file>
+<file>qml/AboutDialog.qml</file><file>qml/LicenseDialog.qml</file><file>qml/Theme.qml</file>
+<file>qml/LoopDiagram.qml</file><file>qml/IntegrationPage.qml</file><file>qml/SolutionsPage.qml</file>
+<file>qml/LiveControls.qml</file><file>qml/ConnectionsPanel.qml</file>
+<file alias="legal/LICENSE">LICENSE</file>
+<file alias="legal/third-party-notices">THIRD_PARTY_NOTICES.md</file>
+<file alias="legal/qt-license">licenses/Qt-Open-Source-LICENSE.txt</file>
+<file>docs/sdk.md</file><file>docs/customer-integration.md</file>
+<file>docs/bench-api.md</file>
+<file alias="assets/logo-light.svg">assets/brand/logo-light.svg</file>
+<file alias="assets/app-icon.svg">assets/brand/app-icon.svg</file>
+<file alias="assets/app-icon.ico">assets/brand/app-icon.ico</file>
+<file alias="assets/valve-normal.glb">SLX_ResilienceLab_Valve/scene/SLX_Valve_closed.glb</file>
+<file alias="assets/valve-cutaway.glb">SLX_ResilienceLab_Valve/scene/SLX_Valve_cutaway_closed.glb</file>
+<file alias="assets/asset_manifest.json">SLX_ResilienceLab_Valve/scene/asset_manifest.json</file>
+</qresource></RCC>

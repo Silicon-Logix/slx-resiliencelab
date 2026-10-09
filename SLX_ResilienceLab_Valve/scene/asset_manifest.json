@@ -1,0 +1,100 @@
+{
+  "asset": "SLX ResilienceLab Valve",
+  "version": "0.1",
+  "author": "Silicon LogiX",
+  "geometry_role": "Original illustrative motorized ball valve; not a manufacturing design.",
+  "cad_units": "mm",
+  "cad_axes": "right-handed, Z up; pipe along X",
+  "gltf_units": "m",
+  "cad_to_gltf": "(x,y,z) -> (x,z,-y)/1000 at scene root",
+  "dimensions_mm": {
+    "flange_face_to_face": 181.2,
+    "flange_outer_diameter": 94,
+    "pipe_bore_diameter": 33,
+    "ball_bore_diameter": 32,
+    "ball_diameter": 52,
+    "actuator_housing": [
+      98,
+      76,
+      53
+    ]
+  },
+  "moving_group": "VALVE_ROTOR",
+  "pivot_cad_mm": [
+    0,
+    0,
+    0
+  ],
+  "axis_in_rotor_local_coordinates": [
+    0,
+    0,
+    1
+  ],
+  "axis_in_gltf_world_coordinates": [
+    0,
+    1,
+    0
+  ],
+  "position_mapping": {
+    "percent_min": 0,
+    "percent_max": 100,
+    "closed_angle_deg": 0,
+    "open_angle_deg": 90,
+    "formula": "angle_deg = clamp(position_pct, 0, 100) * 0.9",
+    "rotation": "positive right-handed rotation about local Z"
+  },
+  "gltf_local_rotation_quaternion_xyzw": "[0, 0, sin(angle_rad/2), cos(angle_rad/2)]",
+  "moving_nodes": [
+    "BALL",
+    "STEM",
+    "DRIVE_COUPLING",
+    "INDICATOR_HUB",
+    "INDICATOR_POINTER",
+    "INDICATOR_CENTER_CAP"
+  ],
+  "virtual_sensor_nodes": [
+    "SENSOR_1",
+    "SENSOR_2",
+    "SENSOR_3"
+  ],
+  "scene_files": {
+    "closed": "scene/SLX_Valve_closed.glb",
+    "open": "scene/SLX_Valve_open.glb",
+    "cutaway_closed": "scene/SLX_Valve_cutaway_closed.glb",
+    "cutaway_open": "scene/SLX_Valve_cutaway_open.glb",
+    "animated": "scene/SLX_Valve_animated.glb",
+    "cutaway_animated": "scene/SLX_Valve_cutaway_animated.glb"
+  },
+  "animation": {
+    "name": "ValveQuarterTurn",
+    "seconds": 8,
+    "keyframes": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        100
+      ],
+      [
+        5,
+        100
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "interpolation": "linear glTF quaternion interpolation; loop optional"
+  },
+  "notes": [
+    "The three modules illustrate independent virtual measurements.",
+    "Geometry contains no fluid simulation, electronics or control firmware.",
+    "Stem is simplified; there are no qualified pressure or flow ratings."
+  ]
+}

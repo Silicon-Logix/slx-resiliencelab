@@ -1,0 +1,3 @@
+﻿Copyright (c) 2026 Marco Pezzullo / Silicon LogiX. License: see LICENSE.
+ResilienceLab facade ABI 1 / core 0.2.0: Windows x64 / Qt 6.12.0 / GCC MinGW 13.1.0.
+Customer C ABI v1: independent of Qt; same architecture and calling convention required.
